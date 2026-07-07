@@ -5,11 +5,11 @@ const Awards = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const awards = [
-    { src: '/src/assets/riya/awards/award-1.jpg', alt: 'Certificate of Recognition' },
-    { src: '/src/assets/riya/awards/award-2.jpg', alt: 'INSIDEA Award Recognition' },
-    { src: '/src/assets/riya/awards/award-3.jpg', alt: 'Team Outing & Celebration' },
-    { src: '/src/assets/riya/awards/award-4.png', alt: 'INSIDEA Trophy' },
-    { src: '/src/assets/riya/awards/award-5.jpg', alt: 'Rising Star of the Year' }
+    { src: '/riya/awards/award-1.jpg', alt: 'Certificate of Recognition' },
+    { src: '/riya/awards/award-2.jpg', alt: 'INSIDEA Award Recognition' },
+    { src: '/riya/awards/award-3.jpg', alt: 'Team Outing & Celebration' },
+    { src: '/riya/awards/award-4.png', alt: 'INSIDEA Trophy' },
+    { src: '/riya/awards/award-5.jpg', alt: 'Rising Star of the Year' }
   ];
 
   return (

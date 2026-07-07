@@ -46,7 +46,7 @@ const About = () => {
           >
             <div className="relative glass-panel p-2 z-10">
               <img 
-                src="/src/assets/riya/about-profile.jpg" 
+                src="/riya/about-profile.jpg" 
                 alt="About" 
                 className="w-full h-auto filter grayscale hover:grayscale-0 transition-all duration-700"
                 onError={(e) => { e.target.style.display = 'none' }}

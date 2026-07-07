@@ -14,7 +14,7 @@ const ProjectCarousel = ({ images, title }) => {
         <AnimatePresence mode="wait">
           <motion.img
             key={currentIndex}
-            src={`/src/assets/riya/campaigns/${images[currentIndex]}`}
+            src={`/riya/campaigns/${images[currentIndex]}`}
             alt={`${title} - image ${currentIndex + 1}`}
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}

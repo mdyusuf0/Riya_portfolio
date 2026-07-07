@@ -11,11 +11,11 @@ const EvidenceGallery = () => {
 
   // Use the extracted screenshots
   const screenshots = [
-    { src: '/src/assets/riya/analytics/metrics-1.jpg', alt: 'Meta Ads Campaign 1', label: 'Meta Ads Performance' },
-    { src: '/src/assets/riya/analytics/metrics-2.jpg', alt: 'Meta Ads Campaign 2', label: 'Cost Per Lead Optimization' },
-    { src: '/src/assets/riya/social/linkedin-1.jpg', alt: 'LinkedIn Post 1', label: 'Thought Leadership' },
-    { src: '/src/assets/riya/social/linkedin-2.jpg', alt: 'LinkedIn Post 2', label: 'Audience Engagement' },
-    { src: '/src/assets/riya/social/linkedin-3.jpg', alt: 'LinkedIn Post 3', label: 'Community Growth' }
+    { src: '/riya/analytics/metrics-1.jpg', alt: 'Meta Ads Campaign 1', label: 'Meta Ads Performance' },
+    { src: '/riya/analytics/metrics-2.jpg', alt: 'Meta Ads Campaign 2', label: 'Cost Per Lead Optimization' },
+    { src: '/riya/social/linkedin-1.jpg', alt: 'LinkedIn Post 1', label: 'Thought Leadership' },
+    { src: '/riya/social/linkedin-2.jpg', alt: 'LinkedIn Post 2', label: 'Audience Engagement' },
+    { src: '/riya/social/linkedin-3.jpg', alt: 'LinkedIn Post 3', label: 'Community Growth' }
   ];
 
   return (

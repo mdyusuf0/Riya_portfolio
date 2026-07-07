@@ -190,7 +190,7 @@ export const certificates = {
       issuer: "National Digital Marketing Institute & Training (NDMIT)",
       icon: "🏆",
       desc: "Completed the advanced level of study integrating hands-on training and practical case studies developed by NDMIT.",
-      image: "/src/assets/riya/cert-ndmit.jpg"
+      image: "/riya/cert-ndmit.jpg"
     },
     {
       name: "Inbound Social Media Strategy",
