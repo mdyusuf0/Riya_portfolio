@@ -132,24 +132,7 @@ const Hero = ({ onVideoLoaded }) => {
             {heroContent.subtitle}
           </p>
 
-          <button 
-            onClick={() => {
-              navigator.clipboard.writeText("Hi Riya, I saw your portfolio and I would like to discuss a freelance opportunity with you!");
-              alert("Message copied! Redirecting to LinkedIn...");
-              window.open(socialLinks.linkedin, '_blank');
-            }}
-            data-aos="fade-up"
-            data-aos-delay="300"
-            className="inline-flex items-center gap-3 px-4 py-2 rounded-full border border-green-500 bg-green-500/10 backdrop-blur-sm hover:bg-green-500/20 transition-colors z-30 group cursor-pointer"
-          >
-            <span className="relative flex h-3 w-3">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
-            </span>
-            <span className="text-xs font-mono text-green-500 tracking-widest uppercase font-bold group-hover:text-green-400 transition-colors">
-              Available for Freelance
-            </span>
-          </button>
+
         </div>
 
         {/* Bottom Buttons Container */}
