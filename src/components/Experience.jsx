@@ -65,6 +65,23 @@ const Experience = () => {
                       ))}
                     </div>
                   </div>
+
+                  {/* Visual Side (Alternate blank space) */}
+                  <div className={`hidden md:flex md:w-1/2 items-center justify-center ${isEven ? 'md:pl-12' : 'md:pr-12'}`}>
+                     <div className={`glass-panel p-2 overflow-hidden transition-transform duration-700 max-w-sm ${isEven ? 'rotate-[2deg] hover:rotate-[-1deg]' : 'rotate-[-2deg] hover:rotate-[1deg]'} hover:scale-105`}>
+                       <img 
+                         src={
+                           index === 0 ? '/src/assets/riya/analytics/metrics-1.jpg' :
+                           index === 1 ? '/src/assets/riya/social/linkedin-1.jpg' :
+                           index === 2 ? '/src/assets/riya/social/linkedin-2.jpg' :
+                           index === 3 ? '/src/assets/riya/analytics/metrics-2.jpg' :
+                           '/src/assets/riya/social/linkedin-3.jpg'
+                         } 
+                         alt="Work Experience Highlight"
+                         className="w-full h-auto object-cover opacity-80 hover:opacity-100 transition-opacity duration-300" 
+                       />
+                     </div>
+                  </div>
                 </motion.div>
               );
             })}

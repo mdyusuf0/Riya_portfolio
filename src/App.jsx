@@ -9,6 +9,7 @@ import SocialSignal from './components/SocialSignal'
 import Projects from './components/Projects' // Case studies
 import TechnicalSkills from './components/TechnicalSkills' // Capability Network
 import Experience from './components/Experience'
+import Awards from './components/Awards'
 import Certificates from './components/Certificates' // Credential Index
 import Education from './components/Education'
 import Contact from './components/Contact'
@@ -31,6 +32,7 @@ function App() {
       <MyProcess />
       <Projects />
       <Experience />
+      <Awards />
       <TechnicalSkills />
       <Certificates />
       <Education />

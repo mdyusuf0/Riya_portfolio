@@ -17,7 +17,7 @@ const About = () => {
             <div data-aos="fade-up" className="mb-12 md:mb-20">
               <h3 className="text-3xl md:text-5xl lg:text-6xl font-black text-white leading-tight font-display uppercase">
                 {aboutContent.heading} <br className="hidden md:block"/>
-                <span className="font-cursive text-[var(--color-brand-red)] lowercase block mt-2 text-5xl md:text-7xl">portfolio</span>
+                <span className="font-cursive text-[var(--color-brand-red)] lowercase block mt-2 text-5xl md:text-7xl">me</span>
               </h3>
             </div>
             <div className="w-16 h-[2px] bg-[var(--color-brand-red)] mb-8"></div>
@@ -44,11 +44,11 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="relative"
           >
-            <div className="aspect-[4/5] relative glass-panel p-2 z-10">
+            <div className="relative glass-panel p-2 z-10">
               <img 
                 src="/src/assets/riya/about-profile.jpg" 
                 alt="About" 
-                className="w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-700"
+                className="w-full h-auto filter grayscale hover:grayscale-0 transition-all duration-700"
                 onError={(e) => { e.target.style.display = 'none' }}
               />
             </div>

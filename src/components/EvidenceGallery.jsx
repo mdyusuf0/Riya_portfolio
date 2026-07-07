@@ -11,12 +11,11 @@ const EvidenceGallery = () => {
 
   // Use the extracted screenshots
   const screenshots = [
-    { src: '/screenshots/WhatsApp Image 2026-07-06 at 10.25.35 PM (1).jpeg', alt: 'Meta Ads Campaign 1', label: 'Meta Ads Performance' },
-    { src: '/screenshots/WhatsApp Image 2026-07-06 at 10.25.35 PM (2).jpeg', alt: 'Meta Ads Campaign 2', label: 'Cost Per Lead Optimization' },
-    { src: '/screenshots/WhatsApp Image 2026-07-06 at 10.25.35 PM.jpeg', alt: 'Meta Ads Campaign 3', label: 'Messaging Conversions' },
-    { src: '/screenshots/WhatsApp Image 2026-07-06 at 10.25.36 PM (1).jpeg', alt: 'Meta Ads Campaign 4', label: 'ROAS Scaling' },
-    { src: '/screenshots/WhatsApp Image 2026-07-06 at 10.25.36 PM (2).jpeg', alt: 'Meta Ads Campaign 5', label: 'Engagement Growth' },
-    { src: '/screenshots/WhatsApp Image 2026-07-06 at 10.25.36 PM.jpeg', alt: 'Meta Ads Campaign 6', label: 'Audience Targeting' }
+    { src: '/src/assets/riya/analytics/metrics-1.jpg', alt: 'Meta Ads Campaign 1', label: 'Meta Ads Performance' },
+    { src: '/src/assets/riya/analytics/metrics-2.jpg', alt: 'Meta Ads Campaign 2', label: 'Cost Per Lead Optimization' },
+    { src: '/src/assets/riya/social/linkedin-1.jpg', alt: 'LinkedIn Post 1', label: 'Thought Leadership' },
+    { src: '/src/assets/riya/social/linkedin-2.jpg', alt: 'LinkedIn Post 2', label: 'Audience Engagement' },
+    { src: '/src/assets/riya/social/linkedin-3.jpg', alt: 'LinkedIn Post 3', label: 'Community Growth' }
   ];
 
   return (
@@ -44,7 +43,7 @@ const EvidenceGallery = () => {
               onClick={() => setSelectedImage(item)}
             >
               <div className="glass-panel p-2 rounded-xl transition-all duration-500 group-hover:-translate-y-2 group-hover:border-[var(--color-brand-red)] group-hover:shadow-[0_10px_30px_var(--color-brand-red-glow)]">
-                <div className="relative overflow-hidden rounded-lg aspect-[9/16] bg-black">
+                <div className="relative overflow-hidden rounded-lg aspect-square bg-black">
                   <img 
                     src={item.src} 
                     alt={item.alt} 

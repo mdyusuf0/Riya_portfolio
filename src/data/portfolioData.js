@@ -186,10 +186,11 @@ export const educationList = [
 export const certificates = {
   featured: [
     {
-      name: "Advanced Digital Marketing Certification",
-      issuer: "National Digital Marketing Institute & Training",
+      name: "Advanced Digital Marketing Certificate",
+      issuer: "National Digital Marketing Institute & Training (NDMIT)",
       icon: "🏆",
-      desc: "Comprehensive certification covering end-to-end digital marketing practices."
+      desc: "Completed the advanced level of study integrating hands-on training and practical case studies developed by NDMIT.",
+      image: "/src/assets/riya/cert-ndmit.jpg"
     },
     {
       name: "Inbound Social Media Strategy",
