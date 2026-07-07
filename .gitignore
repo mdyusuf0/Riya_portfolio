@@ -36,3 +36,9 @@ scratch/
 /animated video.mp4
 /id card.jpeg
 /Huzaifa-resume.pdf
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
